@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/used_up_item"
+  }
+}

@@ -37,6 +37,7 @@ player_event
 |`tag/function #player:used.bow`|called when `scoreboard used:bow` increases (next tick)|
 |`tag/function #player:used.snowball`|called when `scoreboard used:snowball` increases (next tick)|
 |`tag/function #player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
+|`tag/function #player:used_up_item`|Called when a player uses up the item (i.e., durability is 0).|
 |`tag/function #player:using_item`|called when `advancement using_item` triggers<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 
 ## Usage
