@@ -29,6 +29,7 @@ player_event
 |`tag/function #player:slept_in_bed`|called when `advancement slept_in_bed` triggers|
 |`tag/function #player:spawned`|called when a player logins for the first time or respawns|
 |`tag/function #player:started_riding`|called when `advancement started_riding` triggers|
+|`tag/function #player:started_using_item`|called when a player start using item<br>(i.e., the first tick that `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 |`tag/function #player:tick`|called every tick|
 |`tag/function #player:used_totem`|called when `advancement used_totem` triggers|
 |`tag/function #player:used.carrot_on_a_stick`|called when `scoreboard used:carrot_on_a_stick` increases (next tick)|
