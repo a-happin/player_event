@@ -41,6 +41,11 @@ player_event
 |`tag/function #player:used_up_item`|Called when a player uses up the item (i.e., durability is 0).|
 |`tag/function #player:using_item`|called when `advancement using_item` triggers<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 
+## Extra Modules
+- [player_event.landed](https://github.com/a-happin/player_event.landed)
+- [player_event.switched_selected_item_slot](https://github.com/a-happin/player_event.switched_selected_item_slot)
+- [player_event.used_id](https://github.com/a-happin/player_event.used_id)
+
 ## Usage
 
 call `tag/function #minecraft:load_once` once
