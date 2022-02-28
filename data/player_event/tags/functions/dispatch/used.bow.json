@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.bow",
+    {"id": "#player:used.bow", "required": false}
+  ]
+}

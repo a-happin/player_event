@@ -1,0 +1,7 @@
+{
+  "values": [
+    "player_event:handler/relogined",
+    {"id": "#player:logined", "required": false},
+    {"id": "#player:relogined", "required": false}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "used_totem"
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/used_totem"
+  }
+}

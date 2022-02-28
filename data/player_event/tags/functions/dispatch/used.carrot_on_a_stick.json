@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.carrot_on_a_stick",
+    {"id": "#player:used.carrot_on_a_stick", "required": false}
+  ]
+}

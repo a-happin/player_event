@@ -1,0 +1,70 @@
+{
+  "criteria": {
+    "bow": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "bow"
+          ]
+        }
+      }
+    },
+    "crossbow": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "crossbow"
+          ]
+        }
+      }
+    },
+    "ender_eye": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ender_eye"
+          ]
+        }
+      }
+    },
+    "shield": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "shield"
+          ]
+        }
+      }
+    },
+    "spyglass": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "spyglass"
+          ]
+        }
+      }
+    },
+    "trident": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "trident"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["bow", "crossbow", "ender_eye", "shield", "spyglass", "trident"]
+  ],
+  "rewards": {
+    "function": "player_event:handler/using_item"
+  }
+}

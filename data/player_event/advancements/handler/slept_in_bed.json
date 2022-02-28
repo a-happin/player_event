@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/slept_in_bed"
+  }
+}

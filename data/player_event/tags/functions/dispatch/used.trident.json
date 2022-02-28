@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.trident",
+    {"id": "#player:used.trident", "required": false}
+  ]
+}

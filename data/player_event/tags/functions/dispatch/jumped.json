@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/jumped",
+    {"id": "player:jumped", "required": false}  
+  ]
+}

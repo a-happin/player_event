@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/dropped",
+    {"id": "#player:dropped", "required": false}
+  ]
+}

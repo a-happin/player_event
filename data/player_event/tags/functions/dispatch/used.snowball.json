@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.snowball",
+    {"id": "#player:used.snowball", "required": false}
+  ]
+}

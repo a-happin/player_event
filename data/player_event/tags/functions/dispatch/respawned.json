@@ -1,0 +1,7 @@
+{
+  "values": [
+    "player_event:handler/respawned",
+    {"id": "#player:spawned", "required": false},
+    {"id": "#player:respawned", "required": false}
+  ]
+}

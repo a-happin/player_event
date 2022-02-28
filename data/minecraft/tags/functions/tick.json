@@ -1,3 +1,5 @@
 {
-  "values": []
+  "values": [
+    "player_event:tick"
+  ]
 }

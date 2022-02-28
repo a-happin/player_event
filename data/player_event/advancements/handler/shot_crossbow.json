@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "air": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{ChargedProjectiles: [{id: \"minecraft:air\"}]}"
+        }
+      }
+    },
+    "arrow": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{ChargedProjectiles: [{id: \"minecraft:arrow\"}]}"
+        }
+      }
+    },
+    "firework_rocket": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{ChargedProjectiles: [{id: \"minecraft:firework_rocket\"}]}"
+        }
+      }
+    },
+    "spectral_arrow": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{ChargedProjectiles: [{id: \"minecraft:spectral_arrow\"}]}"
+        }
+      }
+    },
+    "tipped_arrow": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{ChargedProjectiles: [{id: \"minecraft:tipped_arrow\"}]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["air", "arrow", "firework_rocket", "spectral_arrow", "tipped_arrow"]
+  ],
+  "rewards": {
+    "function": "player_event:handler/shot_crossbow"
+  }
+}

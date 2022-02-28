@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "player_killed_entity"
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/player_killed_entity"
+  }
+}

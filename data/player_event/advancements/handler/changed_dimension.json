@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "changed_dimension"
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/changed_dimension"
+  }
+}

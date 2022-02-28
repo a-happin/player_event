@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/died",
+    {"id": "#player:died", "required": false}
+  ]
+}

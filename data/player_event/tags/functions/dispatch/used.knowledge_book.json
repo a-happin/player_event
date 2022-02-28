@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.knowledge_book",
+    {"id": "#player:used.knowledge_book", "required": false}
+  ]
+}
