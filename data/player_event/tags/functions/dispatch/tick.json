@@ -1,7 +1,7 @@
 {
   "values": [
-    "player_event:handler/tick",
     { "id": "#player:early_tick", "required": false},
+    "player_event:handler/tick",
     { "id": "#player:tick", "required": false},
     { "id": "#player:late_tick/99", "required": false },
     { "id": "#player:late_tick/98", "required": false },
