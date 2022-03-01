@@ -4,7 +4,6 @@ player_event
 ## Features
 
 - Define `tag/function` to register event handlers
-- for 1.18.2
 
 ### Event Handlers
 
@@ -52,7 +51,9 @@ player_event
 call `tag/function #minecraft:load_once` once
 
 ## Requirement
-This conflicts with [player_tick](https://github.com/a-happin/player_tick), so please remove it.
+
+- Minecraft JE 1.18.2
+- This conflicts with [player_tick](https://github.com/a-happin/player_tick), so please remove it.
 
 ## Installation
 
