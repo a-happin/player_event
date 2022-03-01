@@ -4,7 +4,7 @@ player_event
 ## Features
 
 - Define `tag/function` to register event handlers
-- for 1.18.1
+- for 1.18.2
 
 ### Event Handlers
 
