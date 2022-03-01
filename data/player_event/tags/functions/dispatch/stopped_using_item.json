@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/stopped_using_item",
+    {"id": "#player:stopped_using_item", "required": false}
+  ]
+}

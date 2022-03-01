@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/started_using_item",
+    {"id": "#player:started_using_item", "required": false}
+  ]
+}

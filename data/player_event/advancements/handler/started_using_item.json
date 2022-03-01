@@ -3,8 +3,5 @@
     "": {
       "trigger": "impossible"
     }
-  },
-  "rewards": {
-    "function": "player_event:handler/started_using_item"
   }
 }
