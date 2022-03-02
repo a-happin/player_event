@@ -8,6 +8,7 @@
   scoreboard objectives add player_event.age custom:time_since_death
   scoreboard objectives add player_event.dropped custom:drop
   scoreboard objectives add player_event.jumped custom:jump
+  scoreboard objectives add player_event.flying_with_elytra custom:aviate_one_cm
   scoreboard objectives add player_event.used.carrot_on_a_stick used:carrot_on_a_stick
   scoreboard objectives add player_event.used.warped_fungus_on_a_stick used:warped_fungus_on_a_stick
   scoreboard objectives add player_event.used.knowledge_book used:knowledge_book

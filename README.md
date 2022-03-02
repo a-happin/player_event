@@ -15,6 +15,7 @@ player_event
 |`tag/function #player:early_tick`|called every tick before `#player:tick`|
 |`tag/function #player:entity_hurt_player`|called when `advancement entity_hurt_player` triggers|
 |`tag/function #player:entity_killed_player`|called when `advancement entity_killed_player` triggers|
+|`tag/function #player:flying_with_elytra`|called when `scoreboard custom:aviate_one_cm` increases (next tick)|
 |`tag/function #player:initialize`|called when a player logins for the first time|
 |`tag/function #player:inventory_changed`|called when `advancement inventory_changed` triggers|
 |`tag/function #player:jumped`|called when `scoreboard custom:jump` increases (next tick)|
@@ -27,8 +28,10 @@ player_event
 |`tag/function #player:shot_crossbow`|called when `advancement shot_crossbow` triggers|
 |`tag/function #player:slept_in_bed`|called when `advancement slept_in_bed` triggers|
 |`tag/function #player:spawned`|called when a player logins for the first time or respawns|
+|`tag/function #player:started_flying_with_elytra`|called when a player starts flying with elytra|
 |`tag/function #player:started_riding`|called when `advancement started_riding` triggers|
 |`tag/function #player:started_using_item`|called when a player starts using item<br>(i.e., called when the first `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
+|`tag/function #player:stopped_flying_with_elytra`|called when a player stops flying with elytra|
 |`tag/function #player:stopped_using_item`|called when a player stops using item<br>(i.e., called 1tick after the last `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 |`tag/function #player:tick`|called every tick|
 |`tag/function #player:used_totem`|called when `advancement used_totem` triggers|

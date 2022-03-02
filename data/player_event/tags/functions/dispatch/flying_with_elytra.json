@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/flying_with_elytra",
+    {"id": "#player:flying_with_elytra", "required": false}
+  ]
+}
