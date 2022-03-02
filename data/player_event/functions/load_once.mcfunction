@@ -16,3 +16,9 @@
   scoreboard objectives add player_event.used.bow used:bow
   scoreboard objectives add player_event.used.snowball used:snowball
   scoreboard objectives add player_event.used.trident used:trident
+
+#>
+#@public
+  scoreboard objectives add player_event.time.using_item dummy
+  scoreboard objectives add player_event.time.flying_with_elytra dummy
+  scoreboard objectives add player_event.time.pressing_key.sneak dummy

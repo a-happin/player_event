@@ -48,6 +48,14 @@ player_event
 |`tag/function #player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
 |`tag/function #player:using_item`|called when `advancement using_item` triggers|
 
+### Scores
+
+|Score|description|
+|:--|:--|
+|`score @s player_event.time.using_item`|The time spent using_item (tick)|
+|`score @s player_event.time.flying_with_elytra`|The time spent flying with elytra (tick)|
+|`score @s player_event.time.pressing_key.sneak`|The time spent pressing `key.sneak` (tick)|
+
 ## Usage
 
 call `tag/function #minecraft:load_once` once

@@ -14,4 +14,4 @@ execute if entity @s[scores={player_event.used.knowledge_book=1..}] run function
 execute if entity @s[scores={player_event.used.bow=1..}] run function #player_event:dispatch/used.bow
 execute if entity @s[scores={player_event.used.snowball=1..}] run function #player_event:dispatch/used.snowball
 execute if entity @s[scores={player_event.used.trident=1..}] run function #player_event:dispatch/used.trident
-execute if entity @s[advancements={player_event:handler/started_using_item=true,player_event:handler/using_item=false}] run function #player_event:dispatch/stopped_using_item
+execute if entity @s[scores={player_event.time.using_item=1..},advancements={player_event:handler/using_item=false}] run function #player_event:dispatch/stopped_using_item
