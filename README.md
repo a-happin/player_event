@@ -31,7 +31,7 @@ player_event
 |`tag/function #player:started_flying_with_elytra`|called when a player starts flying with elytra|
 |`tag/function #player:started_riding`|called when `advancement started_riding` triggers|
 |`tag/function #player:started_using_item`|called when a player starts using item<br>(i.e., called when the first `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
-|`tag/function #player:stopped_flying_with_elytra`|called when a player stops flying with elytra|
+|`tag/function #player:stopped_flying_with_elytra`|called when a player stops flying with elytra<br>(i.e., called 2tick after the last `scoreboard custom:aviate_one_cm` increases)|
 |`tag/function #player:stopped_using_item`|called when a player stops using item<br>(i.e., called 1tick after the last `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 |`tag/function #player:tick`|called every tick|
 |`tag/function #player:used_totem`|called when `advancement used_totem` triggers|
@@ -44,11 +44,6 @@ player_event
 |`tag/function #player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
 |`tag/function #player:using_item`|called when `advancement using_item` triggers<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
 
-## Extension Libraries
-- [player_event.landed](https://github.com/a-happin/player_event.landed)
-- [player_event.switched_selected_item_slot](https://github.com/a-happin/player_event.switched_selected_item_slot)
-- [player_event.used_id](https://github.com/a-happin/player_event.used_id)
-
 ## Usage
 
 call `tag/function #minecraft:load_once` once
@@ -57,6 +52,11 @@ call `tag/function #minecraft:load_once` once
 
 - Minecraft JE 1.18.2
 - This conflicts with [player_tick](https://github.com/a-happin/player_tick), so please remove it.
+
+## Extension Libraries
+- [player_event.landed](https://github.com/a-happin/player_event.landed)
+- [player_event.switched_selected_item_slot](https://github.com/a-happin/player_event.switched_selected_item_slot)
+- [player_event.used_id](https://github.com/a-happin/player_event.used_id)
 
 ## Installation
 
