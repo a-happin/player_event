@@ -95,8 +95,8 @@ readonly
 
 |Resource Location|description|
 |:--|:--|
-|`player_event:consumables_always`|
-|`player_event:consumables_if_hungry`|
+|`#player_event:consumables_always`|
+|`#player_event:consumables_if_hungry`|
 
 ## Usage
 
