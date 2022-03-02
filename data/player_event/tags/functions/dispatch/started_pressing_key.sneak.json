@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/started_pressing_key.sneak",
+    {"id": "#player:started_pressing_key.sneak", "required": false}
+  ]
+}
