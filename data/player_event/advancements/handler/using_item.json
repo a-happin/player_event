@@ -59,10 +59,26 @@
           ]
         }
       }
+    },
+    "consumables_always": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "tag": "player_event:consumables_always"
+        }
+      }
+    },
+    "consumables_if_hungry": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "tag": "player_event:consumables_if_hungry"
+        }
+      }
     }
   },
   "requirements": [
-    ["bow", "crossbow", "ender_eye", "shield", "spyglass", "trident"]
+    ["bow", "crossbow", "ender_eye", "shield", "spyglass", "trident", "consumables_always", "consumables_if_hungry"]
   ],
   "rewards": {
     "function": "player_event:handler/using_item"

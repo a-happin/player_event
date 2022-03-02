@@ -10,6 +10,7 @@ player_event
 |Resource Location|description|
 |:--|:--|
 |`tag/function #player:changed_dimension`|called when `advancement changed_dimension` triggers|
+|`tag/function #player:consume_item`|called when `advancement consume_item` triggers|
 |`tag/function #player:died`|called when `scoreboard custom:deaths` increases (next tick)|
 |`tag/function #player:dropped`|called when `scoreboard custom:drop` increases (next tick)|
 |`tag/function #player:early_tick`|called every tick before `#player:tick`|
@@ -30,9 +31,9 @@ player_event
 |`tag/function #player:spawned`|called when a player logins for the first time or respawns|
 |`tag/function #player:started_flying_with_elytra`|called when a player starts flying with elytra|
 |`tag/function #player:started_riding`|called when `advancement started_riding` triggers|
-|`tag/function #player:started_using_item`|called when a player starts using item<br>(i.e., called when the first `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
+|`tag/function #player:started_using_item`|called when a player starts using item<br>(i.e., called when the first `advancement using_item` triggers)|
 |`tag/function #player:stopped_flying_with_elytra`|called when a player stops flying with elytra<br>(i.e., called 2tick after the last `scoreboard custom:aviate_one_cm` increases)|
-|`tag/function #player:stopped_using_item`|called when a player stops using item<br>(i.e., called 1tick after the last `advancement using_item` triggers)<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
+|`tag/function #player:stopped_using_item`|called when a player stops using item<br>(i.e., called 1tick after the last `advancement using_item` triggers)|
 |`tag/function #player:tick`|called every tick|
 |`tag/function #player:used_totem`|called when `advancement used_totem` triggers|
 |`tag/function #player:used_up_item`|Called when a player uses up the item (i.e., durability is 0).|
@@ -42,7 +43,7 @@ player_event
 |`tag/function #player:used.bow`|called when `scoreboard used:bow` increases (next tick)|
 |`tag/function #player:used.snowball`|called when `scoreboard used:snowball` increases (next tick)|
 |`tag/function #player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
-|`tag/function #player:using_item`|called when `advancement using_item` triggers<br>(only bow, crossbow, ender_eye, shield, spyglass and trident)|
+|`tag/function #player:using_item`|called when `advancement using_item` triggers|
 
 ## Usage
 
