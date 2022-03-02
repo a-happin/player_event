@@ -31,11 +31,11 @@ player_event
 |`tag/function #player:slept_in_bed`|called when `advancement slept_in_bed` triggers|
 |`tag/function #player:spawned`|called when a player logins for the first time or respawns|
 |`tag/function #player:started_flying_with_elytra`|called when a player starts flying with elytra|
-|`tag/function #player:started_pressing_key.sneak`|called when a player starts pressing key.sneak|
+|`tag/function #player:started_pressing_key.sneak`|called when a player starts pressing `key.sneak`|
 |`tag/function #player:started_riding`|called when `advancement started_riding` triggers|
 |`tag/function #player:started_using_item`|called when a player starts using item<br>(i.e., called when the first `advancement using_item` triggers)|
 |`tag/function #player:stopped_flying_with_elytra`|called when a player stops flying with elytra<br>(i.e., called 2tick after the last `scoreboard custom:aviate_one_cm` increases)|
-|`tag/function #player:stopped_pressing_key.sneak`|called when a player stops pressing key.sneak|
+|`tag/function #player:stopped_pressing_key.sneak`|called when a player stops pressing `key.sneak`|
 |`tag/function #player:stopped_using_item`|called when a player stops using item<br>(i.e., called 1tick after the last `advancement using_item` triggers)|
 |`tag/function #player:tick`|called every tick|
 |`tag/function #player:used_totem`|called when `advancement used_totem` triggers|
@@ -50,11 +50,53 @@ player_event
 
 ### Scores
 
+readonly
+
 |Score|description|
 |:--|:--|
 |`score @s player_event.time.using_item`|The time spent using_item (tick)|
 |`score @s player_event.time.flying_with_elytra`|The time spent flying with elytra (tick)|
 |`score @s player_event.time.pressing_key.sneak`|The time spent pressing `key.sneak` (tick)|
+
+### Advancements criteria
+
+readonly
+
+|available in|Advancement|criteria|
+|:--|:--|:--|
+|`#player:consume_item`|`player_event:handler/consume_item`|consumables_always|
+|^|^|consumables_if_hungry|
+|`#player:entity_hurt_player`|`player_event:handler/entity_hurt_player`|bypasses_armor|
+|^|^|bypasses_invulnerability|
+|^|^|bypasses_magic|
+|^|^|is_explosion|
+|^|^|is_fire|
+|^|^|is_lightning|
+|^|^|is_magic|
+|^|^|is_projectile|
+|`#player:player_hurt_entity`|`player_event:handler/player_hurt_entity`|bypasses_armor|
+|^|^|bypasses_invulnerability|
+|^|^|bypasses_magic|
+|^|^|is_explosion|
+|^|^|is_fire|
+|^|^|is_lightning|
+|^|^|is_magic|
+|^|^|is_projectile|
+|`#player:started_using_item`<br>`#player:using_item`|`player_event:handler/using_item`|bow|
+|^|^|crossbow|
+|^|^|ender_eye|
+|^|^|shield|
+|^|^|spyglass|
+|^|^|trident|
+|^|^|consumables_always|
+|^|^|consumables_if_hungry|
+
+### tag/item
+
+|Resource Location|description|
+|:--|:--|
+|`player_event:consumables_always`|
+|`player_event:consumables_if_hungry`|
 
 ## Usage
 
