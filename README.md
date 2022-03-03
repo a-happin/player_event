@@ -105,7 +105,7 @@ call `tag/function #minecraft:load_once` once
 - Minecraft JE 1.18.2
 - This conflicts with [player_tick](https://github.com/a-happin/player_tick), so please remove it.
 
-## Extension Libraries
+## Extensions
 - [player_event.landed](https://github.com/a-happin/player_event.landed)
 - [player_event.switched_selected_item_slot](https://github.com/a-happin/player_event.switched_selected_item_slot)
 - [player_event.used_id](https://github.com/a-happin/player_event.used_id)
