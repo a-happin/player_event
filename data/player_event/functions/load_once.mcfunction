@@ -21,4 +21,4 @@
 #@public
   scoreboard objectives add player_event.time.using_item dummy
   scoreboard objectives add player_event.time.flying_with_elytra dummy
-  scoreboard objectives add player_event.time.pressing_key.sneak dummy
+  scoreboard objectives add player_event.time.pressing_key.sneak custom:sneak_time
