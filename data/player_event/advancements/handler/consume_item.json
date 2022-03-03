@@ -1,25 +1,9 @@
 {
   "criteria": {
     "consumables_always": {
-      "trigger": "consume_item",
-      "conditions": {
-        "item": {
-          "tag": "player_event:consumables_always"
-        }
-      }
-    },
-    "consumables_if_hungry": {
-      "trigger": "consume_item",
-      "conditions": {
-        "item": {
-          "tag": "player_event:consumables_if_hungry"
-        }
-      }
+      "trigger": "consume_item"
     }
   },
-  "requirements": [
-    ["consumables_always", "consumables_if_hungry"]
-  ],
   "rewards": {
     "function": "player_event:handler/consume_item"
   }

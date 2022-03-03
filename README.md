@@ -64,8 +64,6 @@ readonly
 
 |available in|Advancement|criteria|
 |:--|:--|:--|
-|`#player:consume_item`|`player_event:handler/consume_item`|consumables_always|
-|^|^|consumables_if_hungry|
 |`#player:entity_hurt_player`|`player_event:handler/entity_hurt_player`|bypasses_armor|
 |^|^|bypasses_invulnerability|
 |^|^|bypasses_magic|
