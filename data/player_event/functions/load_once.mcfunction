@@ -14,8 +14,9 @@
   scoreboard objectives add player_event.used.warped_fungus_on_a_stick used:warped_fungus_on_a_stick
   scoreboard objectives add player_event.used.knowledge_book used:knowledge_book
   scoreboard objectives add player_event.used.bow used:bow
-  scoreboard objectives add player_event.used.snowball used:snowball
+  scoreboard objectives add player_event.used.shield custom:damage_blocked_by_shield
   scoreboard objectives add player_event.used.trident used:trident
+  scoreboard objectives add player_event.used.snowball used:snowball
 
 #>
 #@public

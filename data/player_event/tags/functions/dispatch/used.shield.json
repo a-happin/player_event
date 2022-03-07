@@ -1,0 +1,6 @@
+{
+  "values": [
+    "player_event:handler/used.shield",
+    {"id": "#player:used.shield", "required": false}
+  ]
+}
