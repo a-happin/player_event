@@ -12,7 +12,6 @@ execute if entity @s[scores={player_event.used.carrot_on_a_stick=1..}] run funct
 execute if entity @s[scores={player_event.used.warped_fungus_on_a_stick=1..}] run function #player_event:dispatch/used.warped_fungus_on_a_stick
 execute if entity @s[scores={player_event.used.knowledge_book=1..}] run function #player_event:dispatch/used.knowledge_book
 execute if entity @s[scores={player_event.used.bow=1..}] run function #player_event:dispatch/used.bow
-execute if entity @s[scores={player_event.used.shield=1..}] run function #player_event:dispatch/used.shield
 execute if entity @s[scores={player_event.used.trident=1..}] run function #player_event:dispatch/used.trident
 execute if entity @s[scores={player_event.used.snowball=1..}] run function #player_event:dispatch/used.snowball
 execute if entity @s[scores={player_event.time.using_item=1..},advancements={player_event:handler/using_item=false}] run function #player_event:dispatch/stopped_using_item

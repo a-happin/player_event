@@ -1,5 +1,21 @@
 {
   "criteria": {
+    "blocked": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        }
+      }
+    },
+    "not_blocked": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false
+        }
+      }
+    },
     "bypasses_armor": {
       "trigger": "player_hurt_entity",
       "conditions": {
@@ -162,6 +178,7 @@
     }
   },
   "requirements": [
+    ["blocked", "not_blocked"],
     ["bypasses_armor", "not_bypasses_armor"],
     ["bypasses_invulnerability", "not_bypasses_invulnerability"],
     ["bypasses_magic", "not_bypasses_magic"],
