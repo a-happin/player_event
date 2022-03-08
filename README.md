@@ -11,7 +11,7 @@ player_event
 |:--|:--|
 |`#player:changed_dimension`|called when `advancement changed_dimension` triggers|
 |`#player:consume_item`|called when `advancement consume_item` triggers|
-|`#player:died`|called when `scoreboard custom:deaths` increases (next tick)|
+|`#player:died`|called when a player dies|
 |`#player:dropped`|called when `scoreboard custom:drop` increases (next tick)|
 |`#player:early_tick`|called every tick before `#player:tick`|
 |`#player:entity_hurt_player`|called when `advancement entity_hurt_player` triggers|
@@ -48,6 +48,7 @@ player_event
 |`#player:used.snowball`|called when `scoreboard used:snowball` increases (next tick)|
 |`#player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
 |`#player:using_item`|called when `advancement using_item` triggers|
+|`#player:villager_trade`|called when `advancement villager_trade` triggers|
 
 ### Scores
 
