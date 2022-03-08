@@ -2,7 +2,6 @@
 #@within tag/function player_event:dispatch/tick
 
 execute if entity @s[scores={player_event.left_game=1..}] run function #player_event:dispatch/relogined
-execute if entity @s[scores={player_event.deaths=1..}] run function #player_event:dispatch/died
 execute if entity @s[scores={player_event.deaths=0,player_event.age=1..}] run function #player_event:dispatch/respawned
 execute if entity @s[scores={player_event.dropped=1..}] run function #player_event:dispatch/dropped
 execute if entity @s[scores={player_event.jumped=1..}] run function #player_event:dispatch/jumped
