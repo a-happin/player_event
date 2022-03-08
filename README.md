@@ -44,6 +44,7 @@ player_event
 |`#player:used.warped_fungus_on_a_stick`|called when `scoreboard used:warped_fungus_on_a_stick` increases (next tick)|
 |`#player:used.knowledge_book`|called when `scoreboard used:knowledge_book` increases (next tick)|
 |`#player:used.bow`|called when `scoreboard used:bow` increases (next tick)|
+|`#player:used.shield`|called when a player blocks damage with a shield|
 |`#player:used.snowball`|called when `scoreboard used:snowball` increases (next tick)|
 |`#player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
 |`#player:using_item`|called when `advancement using_item` triggers|
