@@ -44,7 +44,6 @@ player_event
 |`#player:used.warped_fungus_on_a_stick`|called when `scoreboard used:warped_fungus_on_a_stick` increases (next tick)|
 |`#player:used.knowledge_book`|called when `scoreboard used:knowledge_book` increases (next tick)|
 |`#player:used.bow`|called when `scoreboard used:bow` increases (next tick)|
-|`#player:used.shield`|called when `scoreboard custom:damage_blocked_by_shield` increases (next tick)|
 |`#player:used.snowball`|called when `scoreboard used:snowball` increases (next tick)|
 |`#player:used.trident`|called when `scoreboard used:trident` increases (next tick)|
 |`#player:using_item`|called when `advancement using_item` triggers|
@@ -65,7 +64,8 @@ readonly
 
 |available in|Advancement|criteria|
 |:--|:--|:--|
-|`#player:entity_hurt_player`|`player_event:handler/entity_hurt_player`|bypasses_armor|
+|`#player:entity_hurt_player`|`player_event:handler/entity_hurt_player`|blocked|
+|^|^|bypasses_armor|
 |^|^|bypasses_invulnerability|
 |^|^|bypasses_magic|
 |^|^|is_explosion|
@@ -73,7 +73,8 @@ readonly
 |^|^|is_lightning|
 |^|^|is_magic|
 |^|^|is_projectile|
-|`#player:player_hurt_entity`|`player_event:handler/player_hurt_entity`|bypasses_armor|
+|`#player:player_hurt_entity`|`player_event:handler/player_hurt_entity`|blocked|
+|^|^|bypasses_armor|
 |^|^|bypasses_invulnerability|
 |^|^|bypasses_magic|
 |^|^|is_explosion|
