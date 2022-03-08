@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "player_event:handler/villager_trade"
+  }
+}
