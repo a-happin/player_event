@@ -1,6 +1,11 @@
 player_event
 ==
 
+
+---
+> ⚠ This datapack is deprecated use [player-datapacks](https://github.com/a-happin/player-datapacks) instead.
+---
+
 ## Features
 
 - Define `tag/function` to register event handlers
@@ -107,7 +112,6 @@ call `tag/function #minecraft:load_once` once
 ## Requirement
 
 - Minecraft JE 1.18.2
-- This conflicts with [player_tick](https://github.com/a-happin/player_tick), so please remove it.
 
 ## Extensions
 - [player_event.landed](https://github.com/a-happin/player_event.landed)
